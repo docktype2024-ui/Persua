@@ -107,5 +107,43 @@ section p {
     padding: 2em;
 }
 
+.container-perguntas-respostas{
+    margin: 3em;
+    width: 80%; /* mantém largura fixa */
+    max-width: 1000px; /* opcional, limita o tamanho máximo */
+}
+
+.perguntas-frequentes {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #fff;
+    margin: 1em;
+    border-radius: 20px;
+    width: 100%;
+    overflow: hidden; /* evita que o conteúdo empurre a borda */
+}
+
+.pergunta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pergunta span {
+    cursor: pointer;
+    margin-right: 1em;
+}
+
+.resposta {
+  display: none;
+  transition: all 0.3s ease;
+}
+
+.resposta.mostrar {
+  display: block;
+}
+
+
+
 
 
