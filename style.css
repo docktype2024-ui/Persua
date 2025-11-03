@@ -107,6 +107,11 @@ section p {
     min-height: 250px;
 }
 
+.como-funciona {
+    font-size: 70px !important;
+    line-height: 1; /* evita que o ícone pareça menor */
+}
+
 .funcionalidades{
     display: flex;
     background-color: #fff;
@@ -197,6 +202,8 @@ section p {
   align-items: flex-end; /* empurra os links para o lado direito */
   gap: 0.5em;
 }
+
+
 
 
 
